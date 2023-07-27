@@ -6,7 +6,7 @@ from langchain.chains.question_answering import load_qa_chain
 import fire
 
 import os
-os.environ["OPENAI_API_KEY"] ="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"
+os.environ["OPENAI_API_KEY"] ="YOUR API KEY"
 
 
 def main(path: str, query: str):
